@@ -16,13 +16,13 @@ const News = () => {
         Top Crypto Headlines
       </h2>
       <div className="news">
-        {data?.data?.map((news, index) => (
+        {data?.articles?.map((news, index) => (
           <NewsItem
             key={index}
             newsTitle={news.title}
-            newsSummary={news.description}
-            newsImageUrl={news.image}
-            newsUrl={news.url}
+            newsSummary={news.summary}
+            newsImageUrl={news.media}
+            newsUrl={news.link}
           />
         ))}
       </div>

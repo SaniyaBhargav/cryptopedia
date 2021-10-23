@@ -1,17 +1,19 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const baseUrl = "http://api.mediastack.com/v1";
+const baseUrl = "https://newscatcher.p.rapidapi.com/v1";
 
-const createRequest = (url) => ({ url }); //headers: headers });
+const headers = {
+  "x-rapidapi-host": "newscatcher.p.rapidapi.com",
+  "x-rapidapi-key": "709878c485mshce3e3f50be2b3abp198cddjsn6071ce2a9f2c",
+};
+
+const createRequest = (url) => ({ url, headers: headers });
 export const newsApi = createApi({
   reducerPath: "newsApi",
   baseQuery: fetchBaseQuery({ baseUrl }),
   endpoints: (builder) => ({
     getNews: builder.query({
-      query: () =>
-        createRequest(
-          "/news?access_key=22b99f74f9ca21ded9fe01e759a8a807&keywords=Crypto&languages=en"
-        ),
+      query: () => createRequest("/search_free?q=Crypto&lang=en&media=True"),
     }),
   }),
 });

@@ -8,8 +8,8 @@ const NewsItem = ({ newsTitle, newsImageUrl, newsSummary, newsUrl }) => {
         className="card news-card"
         style={{
           width: "18rem",
-          maxHeight: "50rem",
-          minHeight: "25rem",
+          maxHeight: "70  rem",
+
           flexBasis: "33.33%",
         }}
       >
