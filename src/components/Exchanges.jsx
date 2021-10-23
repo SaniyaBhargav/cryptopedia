@@ -35,22 +35,6 @@ const Exchanges = () => {
         </div>
 
         <table className="table">
-          {/* <thead>
-            <tr>
-              <th scope="col">
-                <strong>Exchange</strong>
-              </th>
-              <th scope="col">
-                <strong>Volume</strong>
-              </th>
-              <th scope="col">
-                <strong>Markets</strong>
-              </th>
-              <th scope="col">
-                <strong>Market Share</strong>
-              </th>
-            </tr>
-          </thead> */}
           <tbody>
             {data?.data?.exchanges.map((exchange, index) => (
               <ExchangeItem

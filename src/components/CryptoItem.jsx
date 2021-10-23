@@ -21,9 +21,7 @@ const CryptoItem = ({
             <h5 className="card-title">{name}</h5>
           </div>
           <h6 className="card-subtitle mb-2 text-muted">{slug}</h6>
-          {/* <p className="card-text">
-              {HTMLReactParser(coin.description || "")}
-            </p> */}
+
           <div className="price-container">
             <button className="btn btn-dark" style={{ marginRight: "10px" }}>
               Price: $ {millify(price)}

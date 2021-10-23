@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Hero.css";
 import { useGetCryptosQuery } from "../services/normalApi";
-// import { useGetNewsQuery } from "../services/newsApi";
+
 import Spinner from "./Spinner";
 import millify from "millify";
 // import News from "./News";
@@ -30,28 +30,6 @@ const Hero = () => {
 
   return (
     <div className="home-container" style={{ position: "relative" }}>
-      {/* <div className="container text-center " style={quoteStyle}>
-        <div className="row">
-          <div className="col col-md-12 col-sm-12 col-lg-12 quote-container">
-            <h2
-              className="quote quote-container"
-              style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-
-                transform: "translate(-50%,-50%)",
-              }}
-            >
-              <span> " </span>
-              It’s money 2.0, a huge, huge, huge deal.
-              <span> " </span> <br></br>– Chamath Palihapitiya, venture
-              capitalist
-            </h2>
-          </div>
-        </div>
-      </div> */}
-
       <div className="container nutshell-container">
         <div className="row">
           <div className="col">
