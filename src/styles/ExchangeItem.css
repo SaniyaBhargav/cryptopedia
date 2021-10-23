@@ -1,0 +1,14 @@
+.name-logo {
+  display: flex;
+}
+
+.coin-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.data-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

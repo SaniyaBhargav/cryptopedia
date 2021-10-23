@@ -1,0 +1,20 @@
+.quote {
+  text-align: center;
+}
+
+.nutshell-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (max-width: 768px) {
+  .info-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
