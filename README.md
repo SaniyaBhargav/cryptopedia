@@ -10,7 +10,7 @@ Cryptopedia uses APIs like Coinranking and Newsdata to display a short crypto su
 
 # Deployment [![Netlify Status](https://api.netlify.com/api/v1/badges/42076a81-1471-4b9f-b659-67600ab2d522/deploy-status)](https://app.netlify.com/sites/focused-kepler-ff46de/deploys)
 
-**Cryptopedia** has been deployed on Netlify, and can be viewed [here](https://focused-kepler-ff46de.netlify.app/)
+**Cryptopedia** has been deployed on Netlify, and can be viewed [here](https://focused-kepler-ff46de.netlify.app/), however the website is down currently.
 
 ## Challenges we ran into
 
